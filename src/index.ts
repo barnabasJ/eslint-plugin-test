@@ -1,8 +1,7 @@
-import get from "lodash/get";
-import { map, filter, reducer } from "lodash";
+import get from 'lodash/get'
 
 const data = {
-  hello: "world",
-};
+  hello: 'world',
+}
 
-export default () => get(data, "hello");
+export default () => get(data, 'hello')
